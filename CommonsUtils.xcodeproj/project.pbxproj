@@ -12,7 +12,21 @@
 		5A52EF791A8A82BF0055958C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A52EF771A8A82BF0055958C /* Main.storyboard */; };
 		5A52EF7B1A8A82C00055958C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A52EF7A1A8A82BF0055958C /* Images.xcassets */; };
 		5A52EF7E1A8A82C00055958C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A52EF7C1A8A82C00055958C /* LaunchScreen.xib */; };
-		5A52EF8A1A8A82C00055958C /* CommonsUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A52EF891A8A82C00055958C /* CommonsUtilsTests.swift */; };
+		5AE0D9681A8B170C00967329 /* Operator+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9671A8B170C00967329 /* Operator+Addition.swift */; };
+		5AE0D96A1A8B17B700967329 /* Operator+Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9691A8B17B700967329 /* Operator+Subtraction.swift */; };
+		5AE0D96C1A8B182700967329 /* Operator+Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96B1A8B182700967329 /* Operator+Multiplication.swift */; };
+		5AE0D96E1A8B18E400967329 /* Operator+Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96D1A8B18E400967329 /* Operator+Division.swift */; };
+		5AE0D9701A8B199400967329 /* Operator+Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96F1A8B199400967329 /* Operator+Remainder.swift */; };
+		5AE0D9A31A8B28BB00967329 /* Operator+Addition_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9A21A8B28BB00967329 /* Operator+Addition_Test.swift */; };
+		5AE0D9A41A8B29B300967329 /* Operator+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9671A8B170C00967329 /* Operator+Addition.swift */; };
+		5AE0D9A51A8B29BD00967329 /* Operator+Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9691A8B17B700967329 /* Operator+Subtraction.swift */; };
+		5AE0D9A61A8B29C000967329 /* Operator+Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96B1A8B182700967329 /* Operator+Multiplication.swift */; };
+		5AE0D9A71A8B29C300967329 /* Operator+Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96D1A8B18E400967329 /* Operator+Division.swift */; };
+		5AE0D9A81A8B29C600967329 /* Operator+Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D96F1A8B199400967329 /* Operator+Remainder.swift */; };
+		5AE0D9AA1A8B308700967329 /* Operator+Subtraction_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9A91A8B308700967329 /* Operator+Subtraction_Test.swift */; };
+		5AE0D9AC1A8B345E00967329 /* Operator+Multiplication_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9AB1A8B345E00967329 /* Operator+Multiplication_Test.swift */; };
+		5AE0D9AE1A8B353100967329 /* Operator+Division_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9AD1A8B353100967329 /* Operator+Division_Test.swift */; };
+		5AE0D9B01A8B3CA300967329 /* Operator+Remainder_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0D9AF1A8B3CA300967329 /* Operator+Remainder_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +49,17 @@
 		5A52EF7D1A8A82C00055958C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5A52EF831A8A82C00055958C /* CommonsUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonsUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A52EF881A8A82C00055958C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A52EF891A8A82C00055958C /* CommonsUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonsUtilsTests.swift; sourceTree = "<group>"; };
+		5AE0D9671A8B170C00967329 /* Operator+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Addition.swift"; sourceTree = "<group>"; };
+		5AE0D9691A8B17B700967329 /* Operator+Subtraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Subtraction.swift"; sourceTree = "<group>"; };
+		5AE0D96B1A8B182700967329 /* Operator+Multiplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Multiplication.swift"; sourceTree = "<group>"; };
+		5AE0D96D1A8B18E400967329 /* Operator+Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Division.swift"; sourceTree = "<group>"; };
+		5AE0D96F1A8B199400967329 /* Operator+Remainder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Remainder.swift"; sourceTree = "<group>"; };
+		5AE0D9A11A8B28BA00967329 /* CommonsUtilsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommonsUtilsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AE0D9A21A8B28BB00967329 /* Operator+Addition_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Addition_Test.swift"; sourceTree = "<group>"; };
+		5AE0D9A91A8B308700967329 /* Operator+Subtraction_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Subtraction_Test.swift"; sourceTree = "<group>"; };
+		5AE0D9AB1A8B345E00967329 /* Operator+Multiplication_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Multiplication_Test.swift"; sourceTree = "<group>"; };
+		5AE0D9AD1A8B353100967329 /* Operator+Division_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Division_Test.swift"; sourceTree = "<group>"; };
+		5AE0D9AF1A8B3CA300967329 /* Operator+Remainder_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Operator+Remainder_Test.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,11 @@
 				5A52EF7A1A8A82BF0055958C /* Images.xcassets */,
 				5A52EF7C1A8A82C00055958C /* LaunchScreen.xib */,
 				5A52EF711A8A82BF0055958C /* Supporting Files */,
+				5AE0D9671A8B170C00967329 /* Operator+Addition.swift */,
+				5AE0D9691A8B17B700967329 /* Operator+Subtraction.swift */,
+				5AE0D96B1A8B182700967329 /* Operator+Multiplication.swift */,
+				5AE0D96D1A8B18E400967329 /* Operator+Division.swift */,
+				5AE0D96F1A8B199400967329 /* Operator+Remainder.swift */,
 			);
 			path = CommonsUtils;
 			sourceTree = "<group>";
@@ -98,8 +127,12 @@
 		5A52EF861A8A82C00055958C /* CommonsUtilsTests */ = {
 			isa = PBXGroup;
 			children = (
-				5A52EF891A8A82C00055958C /* CommonsUtilsTests.swift */,
 				5A52EF871A8A82C00055958C /* Supporting Files */,
+				5AE0D9A21A8B28BB00967329 /* Operator+Addition_Test.swift */,
+				5AE0D9A91A8B308700967329 /* Operator+Subtraction_Test.swift */,
+				5AE0D9AB1A8B345E00967329 /* Operator+Multiplication_Test.swift */,
+				5AE0D9AD1A8B353100967329 /* Operator+Division_Test.swift */,
+				5AE0D9AF1A8B3CA300967329 /* Operator+Remainder_Test.swift */,
 			);
 			path = CommonsUtilsTests;
 			sourceTree = "<group>";
@@ -107,6 +140,7 @@
 		5A52EF871A8A82C00055958C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5AE0D9A11A8B28BA00967329 /* CommonsUtilsTests-Bridging-Header.h */,
 				5A52EF881A8A82C00055958C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,7 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE0D9701A8B199400967329 /* Operator+Remainder.swift in Sources */,
 				5A52EF761A8A82BF0055958C /* ViewController.swift in Sources */,
+				5AE0D96E1A8B18E400967329 /* Operator+Division.swift in Sources */,
+				5AE0D96C1A8B182700967329 /* Operator+Multiplication.swift in Sources */,
+				5AE0D9681A8B170C00967329 /* Operator+Addition.swift in Sources */,
+				5AE0D96A1A8B17B700967329 /* Operator+Subtraction.swift in Sources */,
 				5A52EF741A8A82BF0055958C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A52EF8A1A8A82C00055958C /* CommonsUtilsTests.swift in Sources */,
+				5AE0D9A31A8B28BB00967329 /* Operator+Addition_Test.swift in Sources */,
+				5AE0D9AA1A8B308700967329 /* Operator+Subtraction_Test.swift in Sources */,
+				5AE0D9A61A8B29C000967329 /* Operator+Multiplication.swift in Sources */,
+				5AE0D9A41A8B29B300967329 /* Operator+Addition.swift in Sources */,
+				5AE0D9A71A8B29C300967329 /* Operator+Division.swift in Sources */,
+				5AE0D9AC1A8B345E00967329 /* Operator+Multiplication_Test.swift in Sources */,
+				5AE0D9AE1A8B353100967329 /* Operator+Division_Test.swift in Sources */,
+				5AE0D9A51A8B29BD00967329 /* Operator+Subtraction.swift in Sources */,
+				5AE0D9A81A8B29C600967329 /* Operator+Remainder.swift in Sources */,
+				5AE0D9B01A8B3CA300967329 /* Operator+Remainder_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -367,6 +416,8 @@
 				INFOPLIST_FILE = CommonsUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonsUtilsTests/CommonsUtilsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonsUtils.app/CommonsUtils";
 			};
 			name = Debug;
@@ -375,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -382,6 +434,7 @@
 				INFOPLIST_FILE = CommonsUtilsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CommonsUtilsTests/CommonsUtilsTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommonsUtils.app/CommonsUtils";
 			};
 			name = Release;
@@ -405,6 +458,7 @@
 				5A52EF8F1A8A82C00055958C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A52EF901A8A82C00055958C /* Build configuration list for PBXNativeTarget "CommonsUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +467,7 @@
 				5A52EF921A8A82C00055958C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

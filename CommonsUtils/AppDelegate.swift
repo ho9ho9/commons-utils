@@ -15,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        let a = CGFloat(1) + 1
+        let b = Int16(1) + Int32(30)
+        let c = Int32(1) + Int16(30)
+        let d = Int8(99) % 4
+        println(d)
         // Override point for customization after application launch.
         return true
     }
